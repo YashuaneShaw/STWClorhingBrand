@@ -1,0 +1,150 @@
+/* Names:  Cahil Cowan    Jabari Baker    Keyshawn Williams   Amoy Graham     Yashaune Shaw 
+   IDs:    2209746        2303813         2106838             2301112         2304899
+   Teacher: CAnuli
+   Occurrence: Wednesday 8am 
+*/
+
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #e63946;   /* Bold crimson red */
+    font-family: 'Georgia', serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Gender Stats Section */
+.gender-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.gender {
+    text-align: center;
+    background-color: #f1faee;  /* Light background for gender stats */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.gender img {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.gender h4 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Age Group Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #baf0ea5e;  /* Teal header background */
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f1faee;  /* Light background for even rows */
+}
+
+tr:hover {
+    background-color: #42566b;  /* Highlight row on hover */
+    color: white;
+}
+
+
+/* Search Form Styles */
+.search {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+    font-size: 16px;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e9f5f4;  /* Light blue background */
+    text-align: center;
+
+}
+
+button {
+    cursor: pointer;
+    background-color: #00b8b8a7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Exit Button Styles */
+.exit-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.exit-btn {
+    padding: 12px 25px;
+    background-color: #2e7978;  /* Bold red */
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.exit-btn:hover {
+    background-color: #d90429;  /* Darker red on hover */
+}
+
+.exit-btn:focus {
+    outline: none;
+}

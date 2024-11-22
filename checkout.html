@@ -1,0 +1,91 @@
+<!-- Names:  Cahil Cowan    Jabari Baker    Keyshawn Williams   Amoy Graham     Yashaune Shaw 
+     IDs:    2209746        2303813         2106838             2301112         2304899
+     Teacher: CAnuli
+     Occurrence: Wednesday 8am 
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="checkout.css">
+        <title>Checkout</title>
+    </head>
+
+    <body>
+
+        <h1 style="text-align: center;">Checkout Page</h1>
+
+        <div class="summary">
+            
+        </div>
+
+        <div class="checkout-form">
+
+            <form class="form-container">
+                <div class="shipping-header">
+                    <h2>Shipping Details</h2>
+                </div>
+
+                <div class="fullname-container">
+                    <div class="fullName">
+                        <label for="fullName">Full</label> <br>
+                        <input type="text" id="fullName" name="fullname" placeholder="Enter your full name" required>
+                    </div>
+                    
+                    
+                </div>
+
+                <div class="street-address-container">
+                    <label for="street-address">Street</label> <br>
+                    <input type="text" id="street-address" name="street-address" placeholder="Enter the street address" required>
+                </div>
+
+                <div class="three-column-address">
+                    <div class="parish-container">
+                        <label for="parish">Parish</label>
+                        <select id="parish" name="parish" required>
+                            <option value ="Clarendon">Clarendon</option>
+                            <option value ="Hanover">Hanover</option>
+                            <option value ="Kingston">Kingston</option>
+                            <option value ="Manchester">Manchester</option>
+                            <option value ="Portland">Portland</option>
+                            <option value ="Saint Andrew">St. Andrew</option>
+                            <option value ="Saint Ann">St. Ann</option>
+                            <option value ="Saint Catherine">St. Catherine</option>
+                            <option value ="Saint Elizabeth">St. Elizabeth</option>
+                            <option value ="Saint James">St. James</option>
+                            <option value ="Saint Mary">St. Mary</option>
+                            <option value ="Saint Thomas">St. Thomas</option>
+                            <option value ="Trelawny">Trelawny</option>
+                            <option value ="Westmoreland">Westmoreland</option>
+                        </select>
+                    </div>
+    
+                    <div class="city-container">
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city" placeholder="Enter the city" required>
+                    </div>
+                    
+                    <div class="zip-code-container">
+                        <label for="zip-code">Zip Code</label>
+                        <input type="text" id="zip-code" name="zip-code" placeholder="Enter the zip code" required>
+                    </div>
+                </div> <!--End of Three-column-address Container -->
+
+                <hr> <br>
+                <div id="total-quantity">Total Quantity: 0</div>
+                <div id="total-price">Total Price: $0.00</div>
+                
+                <div class="checkout-btns-container">
+                    <input type="submit" id="confirm-btn" value="Confirm Checkout">
+                    <input type="submit" id="close-btn" value="Close Checkout">
+                </div>
+                
+            </form>
+        </div>
+
+        <script src="checkout.js"></script>
+    </body>
+</html>

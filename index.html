@@ -1,0 +1,83 @@
+<!-- Names:  Cahil Cowan    Jabari Baker    Keyshawn Williams   Amoy Graham     Yashaune Shaw 
+     IDs:    2209746        2303813         2106838             2301112         2304899
+     Teacher: CAnuli
+     Occurrence: Wednesday 8am 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-------------------------------------LINKS-------------------------------------------->
+
+        <link rel="stylesheet" href="forms.css">
+
+    <!-------------------------------------LINKS-------------------------------------------->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+</head>
+<body class="log_body">
+    <section class="head">
+
+    </section>
+    <div class="box">
+        <div class="container">
+            <div class="top-header">
+
+                <a href="Registration_Page.html"><span>Register Now!</span></a>
+
+                <header>Login</header>
+
+            </div>
+            
+          <form action="">
+            <div class="input-feild">
+                <input type="text" class="input" id="log_trn" placeholder="Enter TRN: Example: 000-000-000"" required>
+                <i class="fa-solid fa-user"></i>
+            </div>
+            
+            <div class="input-feild" >
+
+                <input type="password" class="input" id="log_pass" placeholder="Enter password" required>
+
+                <i class="fa-regular fa-lock"></i>
+            </div>
+
+            <div class="input-feild">
+
+                <input type="submit" onclick="login(event)" class="submit" value="Login">
+                <i class="fa-thin fa-arrow-right-to-bracket"></i>
+
+            </div>
+
+            <div>
+                <input type="reset" class="submit" value="Cancel">
+                <i class="fa-thin fa-arrow-right-to-bracket"></i>
+
+            </div>
+
+            <div class="option">
+                <div class="left">
+                    <input type="checkbox" id="check">
+                    <label for="check">Remember Me!</label>
+                </div>
+
+                <div class="right">
+
+                    <label ><a href="Reset_Password.html">Reset Password?</a></label>
+                </div>
+            </div>
+          </form>
+
+           <div class="help_message">
+                <p><em><strong>If you forget your password click forget password</strong></em> </p>
+                <i class="fa-thin fa-exclamation"></i>
+            </div> 
+        </div>
+    </div>
+    <script src="forms.js"></script>
+    
+</body>
+</html>

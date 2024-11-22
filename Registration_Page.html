@@ -1,0 +1,97 @@
+<!-- Names:  Cahil Cowan    Jabari Baker    Keyshawn Williams   Amoy Graham     Yashaune Shaw 
+     IDs:    2209746        2303813         2106838             2301112         2304899
+     Teacher: CAnuli
+     Occurrence: Wednesday 8am 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-------------------------------------LINKS-------------------------------------------->
+
+        <link rel="stylesheet" href="forms.css">
+
+    <!-------------------------------------LINKS-------------------------------------------->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+</head>
+<body class="reg_body">
+
+    <section class="head">
+
+    </section>
+    <div>
+        <h1 style="margin-top:15px ; font-size: 35px;text-align: center;font-weight: 600;">REGISTER NEW ACCOUNT</h1>
+    </div>
+    <div class="registrationform"> 
+
+        <form action="" autocomplete="on">
+
+            <div class="reg_container">
+
+                <label for="Reg_TRN">Tax Registration Number(TRN):</label>
+                <input type="text" id="trnNumber" pattern="[0-9]{3}-[0-9]-[0-9]" required placeholder="Example: 000-000-000"><br>
+                <!--The pattern will ensure that only trn input that match the patter  will be accepted-->
+
+                <div id="TRN_notice"></div>
+
+
+                <div class="reg_box">
+                    <div class="box1">
+                     <label for="first_name">First Name</label><br>
+                     <input type="text" id="first_name" name="first_name" required placeholder="Example: John"><br>
+                </div>
+
+                <div class="box1">
+                    <label for="last_name">Last Name</label><br>
+                    <input type="text"  id="last_name" name="last_name" required placeholder="Example: Doe"><br>
+                </div>
+
+                </div>
+
+                <label for="DOB">Date of Birth</label><br>
+                <input type="date" id="date"><br>
+
+                <label for="Gender">Gender</label><br>
+
+                <select name="Gender" id="gender" required>
+
+                    <option selected  disabled>select</option>
+
+                    <option value="Male">Male</option>
+
+                    <option value="Female">Female</option>
+
+                    <option value="Other">Other</option>
+                </select><br>
+
+                <label for="Reg_email">Email Address</label><br>
+                <input type="email" id="reg_email" name="Reg_email" placeholder="eaxample@email.com" required><br>
+
+                <label for="Reg_phone">Phone Number</label><br>
+                <input type="tel" id="reg_phone" name="Reg_phone" required placeholder=""><br>
+
+                <label for="Reg_password">Password</label><br>
+                <input type="password" id="reg_password" name="Reg_password" required placeholder=""><br>
+
+                <div id="pass_notice"></div><!--Message will be displayed if the user password is below the requirements -->
+
+
+                <label for="Reg_password2">Confirm Password</label><br>
+                <input type="password" id="reg_password2" name="Reg_password2" required>
+                
+                <br>
+                <br>
+
+                <input type="submit" onclick="RegistrationData(event)" value="Register">
+                <input type="reset" value="Cancel">
+            </div>
+
+        </form>
+    </div>
+    <script src="forms.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+/* Names:  Cahil Cowan    Jabari Baker    Keyshawn Williams   Amoy Graham     Yashaune Shaw 
+   IDs:    2209746        2303813         2106838             2301112         2304899
+   Teacher: CAnuli
+   Occurrence: Wednesday 8am 
+*/
+
+/* General Reset and Box Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f7f7f7; /* Softer background for better contrast */
+    color: #333; /* Darker text for readability */
+    line-height: 1.6;
+}
+
+/* Headings */
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #444;
+}
+
+.shipping-header h2{
+    text-align: center;
+}
+
+.shopping{
+    color: #000;
+}
+/* Summary Box */
+.summary {
+    padding: 15px;
+    border: 2px solid #000;
+    background-color: #ff7f50; /* Coral color */
+    color: #fff;
+    text-align: center;
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Container */
+.checkout-form {
+    padding: 15px;
+    border: 2px solid #000;
+    background-color: #ff7f50;
+    max-width: 530px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    border: 2px solid #000;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+/* Input Fields */
+input, select {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Full Name Container */
+.fullname-container {
+    margin-bottom: 15px;
+}
+
+/* Street Address Container */
+.street-address-container {
+    margin-bottom: 15px;
+}
+
+/* Three-Column Address Fields */
+.three-column-address {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.three-column-address input,
+.three-column-address select {
+    flex: 1;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    box-shadow: 0 5px #666;
+    transform: translateY(-2px);
+}
+
+/* Confirm and Close Buttons */
+#confirm-btn {
+    background-color: #28a745;
+    color: #fff;
+    margin-top: 10px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+#confirm-btn:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+#close-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+#close-btn:hover {
+    background-color: #c82333;
+    transform: translateY(-2px);
+}

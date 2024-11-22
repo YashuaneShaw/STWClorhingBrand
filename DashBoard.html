@@ -1,0 +1,82 @@
+<!-- Names:  Cahil Cowan    Jabari Baker    Keyshawn Williams   Amoy Graham     Yashaune Shaw 
+     IDs:    2209746        2303813         2106838             2301112         2304899
+     Teacher: CAnuli
+     Occurrence: Wednesday 8am 
+-->
+     
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <script src="additionalfunctions.js" defer></script> -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="DashBoard.css">
+
+    <title>User Frequency & Invoice List</title>
+</head>
+<body>
+
+    <section>
+
+    </section>
+    <h1>DASHBOARD</h1>
+    <p> You are looking at the dashboard of the website <br> Here you will see the overview of the website and the number of users</p> 
+    <div>   
+        <h3>Genders</h3>
+        <div>
+            Male
+            <div id="malecount" ></div>
+            <img id="male" src="../Assets/BoyColor.jpg" alt="Male Colour" height="5px" width="1px">
+        </div>
+        <div>
+            Female
+            <div id="femalecount" ></div>
+            <img id="female" src="../Assets/GirlColor.jpg" alt="Female Colour" height="5" width="1">
+        </div>
+        <div>
+            Other
+            <div id="othercount" ></div>
+            <img id="other" src="../Assets/OtherColor.png" alt="Other Colour" height="5" width="1">
+        </div>
+    </div>
+    <br>
+    <br>
+    <div>
+        <table>
+            <tr>
+                <td> Age Groups</td>
+                <td> 18 - 25</td>
+                <td> 26 - 35</td>
+                <td> 36 - 50</td>
+                <td> 50 and older</td>
+            </tr>
+            <tr>
+                <td>Accounts</td>
+                <td><span id="groupA"></span></td>
+                <td><span id="groupB"></span></td>
+                <td><span id="groupC"></span></td>
+                <td><span id="groupD"></span></td>
+            </tr>
+        </table>
+    </div>
+
+    <form onsubmit="getUserInvoices(event)">
+        <input type="text" id="search" placeholder="Enter TRN" required>
+        <button type="submit">Search</button>
+    </form>
+    <div id="display"></div>
+
+    <!-- Exit Button -->
+      <div class="exit-container">
+        <button class="exit-btn" onclick="window.location.href='Product.html'">Exit to Product Page</button>
+    </div>
+    
+    <script src="additionalfunctions.js"></script>
+    <script>
+        window.onload = DashBoardCount; 
+    </script>
+    
+</body>
+</html>
