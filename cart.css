@@ -33,7 +33,7 @@ body {
     background: var(--bg-color);
     color: var(--text-color);
     font-family: sans-serif;
-    background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)), url("../Assets/BG3.jpg");
+    background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)), url("Assets/BG3.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
