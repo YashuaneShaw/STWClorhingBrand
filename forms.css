@@ -13,7 +13,7 @@
 
 .log_body{
 
-    background-image: url("../Assets/P1.jpg");
+    background-image: url("Assets/P1.jpg");
     background-color: rgba(255, 255, 255, 0.499); 
     box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0, 0, 0.01);
     margin: 100;
@@ -204,7 +204,7 @@ label a{
     font-weight: 600;
 }
 .reg_body{
-    background-image: url("../Assets/R12.jpg");
+    background-image: url("Assets/R12.jpg");
     background-size: 100%; 
 }
 a{
