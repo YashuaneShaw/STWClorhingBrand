@@ -138,7 +138,7 @@ function generateInvoice() {
 // Function to send email (simulated)
 function sendEmail() {
      alert("Invoice has been sent to your email.");
-     window.location.href = 'home.html';  // Redirects to home.html after alert
+     window.location.href = 'index.html';  // Redirects to home.html after alert
 }
 
 // Generate invoice on page load
