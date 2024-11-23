@@ -79,14 +79,14 @@ document.addEventListener('DOMContentLoaded', function () {
             name: "STW Cap",
             price: 6000,
             description: "Complete your casual ensemble with this stylish STW Cap. Featuring a sleek design and comfortable fit, it’s perfect for sunny days or adding a sporty edge to your outfit.",
-            image: "../Assets/STW Cap.jpg",
+            image: "/Assets/STW Cap.jpg",
         },
         {
             id: 7,
             name: "STW White Cap",
             price: 6000,
             description: "This classic white cap offers a clean and simple look for any occasion. A versatile accessory that pairs well with any casual or athletic wear.",
-            image: "../Assets/STW Wgite Cap.jpg",
+            image: "./Assets/STW Wgite Cap.jpg",
         },
         {
             id: 8,
